@@ -16,6 +16,7 @@ body { font-family: Arial, sans-serif; }
 .intro{
     padding-left: 30px;
     padding-right: 30px;
+    text-align: justify;
 }
 .services{
     justify-self: center;
