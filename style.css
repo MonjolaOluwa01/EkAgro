@@ -1,0 +1,305 @@
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body { font-family: Arial, sans-serif; }
+.row {padding: 50px; text-align: left; background-color:rgb(239, 247, 242); 
+    padding-top: 100px; }
+.highlight-text { color: #1E5631; font-weight: bold;}
+.highlight-word{color: #1E5631; font-weight: bold; padding-bottom: 20px;}
+.content-section { padding: 50px 0; font-size: 50px;padding-top: 20px; }
+.content-section img { max-width: 100%; height: auto; }
+.content-section:nth-child(even) { background-color: #f1f1f1; }
+.hero{
+    padding-top: 30px;
+}
+.intro{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.services{
+    justify-self: center;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border:2px solid #1E5631;
+    border-radius: 50px;
+    color: #1E5631;
+    text-decoration:none;
+}
+.services:hover{
+    color: #1E5631;
+    background:  rgb(127, 214, 146);
+    text-decoration: none;
+    border-style: none;
+}
+.int{
+    justify-content: left;
+    text-align:left;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 30px;
+    animation: ease-in;
+    animation-delay: 5000ms;
+    animation-duration: 10s;
+}
+.row2{
+    text-align: center;
+}
+
+.one{
+    max-width: 100%;
+    height: 90%;
+    padding-left: 20px;
+    border-radius: 10%;
+    size: 100%; 
+    
+}
+.two{
+    max-width: 100%;
+    height: 90%;
+    padding-left: 20px;
+    border-radius: 10%;
+    size: 100%; 
+    
+
+}
+.obj{
+    padding-top: 20px;
+    color: #1E5631; font-weight: bold;
+    text-align: center;
+}
+.card-text{
+    text-align: justify;
+    justify-content: baseline;
+}
+
+.carou{
+    padding-bottom: 40px;
+}
+.carousel-item {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: whitesmoke;
+    background: #085218; /* Bootstrap blue */
+    border-radius: 50px;
+}
+.pip-container{
+    padding-top: 10px;
+}
+.card-body{
+    padding-left: 20px;
+    height: 200px;
+}
+.card-title{
+    font-size: 20px;
+    font-weight:bold;
+    color: #1E5631;
+}
+.icon{
+    height: 25px;
+    filter: invert(24%) sepia(84%) saturate(442%)hue-rotate(94deg);
+    padding: 5px;
+
+}
+#body{
+    background-color: white;
+    text-align: center;
+}
+.circle-container{
+    position: relative;
+    height: 600px;
+}
+.circle-img{
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.circle-1{
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 5%;
+}
+.circle-2{
+    width: 350px;
+    height: 350px;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.circle-3{
+    width: 220px;
+    height: 220px;
+    bottom: 10%;
+    left: 5%;
+}
+.link{
+    color: #f1f1f1;
+}
+.link:hover{
+    color: rgb(3, 65, 6);
+    opacity: 70%;
+    text-decoration: none;
+}
+#ContactUs{
+    color: #f1f1f1;
+}
+/* .card{
+    padding: 30px;
+    margin-top: 10px;
+    height: 800px; 
+    color: rgb(8, 8, 85);
+} */
+/* .pcard{
+    column-count: 2;
+    background-color:rgb(26, 26, 59);
+    padding-bottom: 30px;
+    padding-top: 30px;
+} */
+/* .carousel-inner{
+    /* background: rgb(139, 170, 150);
+    height: 500px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    border-radius: 30%;
+} */
+.pip-container {
+    position: relative;
+    display: inline-block;
+}
+.pip-mini {
+    width: 250px;  /* Adjust size of mini picture */
+    height: auto;
+    position: absolute;
+    bottom: 0px;  /*Position it at the bottom-right*/
+    right: 0px;
+    border: 10px solid rgb(239, 247, 242);  /* Optional border */
+    border-radius: 5px;  /* Rounded corners */
+    box-shadow: 0 0 10px rgba(243, 242, 242, 0.3);  /* Optional shadow */
+}
+.pip-mini img{
+    clip-path: circle(50%);
+    width: 100%;
+    height: auto;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.image-container{
+    display: flex;
+    gap: 15px;
+}
+.split-image{
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+.image-1{
+    background-image: url(pictures/cocoa\ nursery.jpg);
+    background-position: left;
+}
+.image-2{
+    background-image: url(pictures/Oasdom-poultry-farming-business-in-Nigeria-1000x789.jpg);
+    background-position: center;
+}
+.image-3{
+    background-image: url(pictures/Catfish-Farming-Business-e1454520185323.jpg);
+    background-position: right;
+}
+.navbar{
+    background-color: rgb(139, 170, 150);
+    height: 10vh;
+}
+.navbar-brand{
+    /* padding-left: 20pt; */
+    padding-left: 50px;
+    text-align: right;
+}
+.navbar-toggler{
+    border: none;
+}
+.nav-link{
+    margin-left: 40px;
+    padding-left: 50px;
+    /* color:#e0ff4f; */
+    color: rgb(6, 138, 61);
+}
+.nav-link:hover{
+    color: rgb(97, 104, 5);
+    opacity: 70%;
+    text-decoration: underline
+}
+.animate_animated.animate_slideInLeft{
+    --animate-duration: 5s;
+    --animate-delay: 0s;
+}
+#email{
+    cursor: pointer;
+    color: green;
+    text-decoration: underline;
+}
+#phone{
+    cursor: pointer;
+    color: green;
+    text-decoration: underline;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px;
+}
+@media only screen and (max-width: 1024px) and (min-width:350px){
+    .content-section { text-align: center; }
+    .content-section img { width: 100%; height: auto; }
+    .collapse{background-color: azure;}
+    .two{
+        width: 1000px;
+        height: 233px;
+        padding-top: 20px;
+    }
+
+.one{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.pip-mini{
+    right: 0px;
+    bottom: 0px;
+    max-width: 50%;
+    height:100px;
+    /* width: 150px; */
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+
+}
+.card{
+    width: 90%;
+    max-width: 400px;
+}
+.hero-section{
+    max-width: 100%;
+}
+.split-image{
+    width: 100px;
+}
+}
+
