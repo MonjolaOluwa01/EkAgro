@@ -276,13 +276,13 @@ footer{
 .one{
     padding-top: 10px;
     padding-left: 20px;
+    height: 100%;
 }
 .pip-mini{
     right: 0px;
     bottom: 0px;
     max-width: 50%;
-    height:100px;
-    /* width: 150px; */
+    height:80px;
 }
 .card-container{
     display: flex;
