@@ -271,6 +271,8 @@ footer{
     .content-section { text-align: center; }
     .content-section img { width: 100%; height: auto; }
     .collapse{background-color:  #30885D;}
+    .navbar-toggler{ padding-bottom: 30px; }
+    .navbar-brand{ padding-bottom: 30px; }
     .two{
         width: 1000px;
         height: 233px;
@@ -320,6 +322,7 @@ footer{
     width: 90%;
     max-width: 400px;
 }
+.card-body{ padding: 20px; }
 .hero-section{
     max-width: 100%;
 }
