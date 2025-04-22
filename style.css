@@ -2,16 +2,16 @@ html,body{
     max-width: 100%;
     overflow-x: hidden;
 }
-body { font-family: Arial, sans-serif; }
-.row {padding: 50px; text-align: left; background-color:rgb(239, 247, 242); 
-    padding-top: 100px; }
+body { font-family: Georgia, 'Times New Roman', Times, serif, sans-serif; }
+.row {padding-bottom: 50px; text-align: left; background-color:rgb(239, 247, 242); 
+    padding-top: 50px; }
 .highlight-text { color: #1E5631; font-weight: bold;}
 .highlight-word{color: #1E5631; font-weight: bold; padding-bottom: 20px;}
 .content-section { padding: 50px 0; font-size: 50px;padding-top: 20px; }
 .content-section img { max-width: 100%; height: auto; }
 .content-section:nth-child(even) { background-color: #f1f1f1; }
 .hero{
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .intro{
     padding-left: 30px;
@@ -103,7 +103,7 @@ body { font-family: Arial, sans-serif; }
     color: #1E5631;
 }
 .icon{
-    height: 25px;
+    height: 60px;
     filter: invert(24%) sepia(84%) saturate(442%)hue-rotate(94deg);
     padding: 5px;
 
@@ -223,7 +223,8 @@ body { font-family: Arial, sans-serif; }
     background-position: right;
 }
 .navbar{
-    background-color: rgb(139, 170, 150);
+    background-color: #30885D;
+    /* rgb(139, 170, 150); */
     height: 10vh;
 }
 .navbar-brand{
@@ -238,10 +239,10 @@ body { font-family: Arial, sans-serif; }
     margin-left: 40px;
     padding-left: 50px;
     /* color:#e0ff4f; */
-    color: rgb(6, 138, 61);
+    color: rgb(246, 250, 248);
 }
 .nav-link:hover{
-    color: rgb(97, 104, 5);
+    color: rgb(233, 248, 15);
     opacity: 70%;
     text-decoration: underline
 }
@@ -251,12 +252,12 @@ body { font-family: Arial, sans-serif; }
 }
 #email{
     cursor: pointer;
-    color: green;
+    color:  rgb(233, 248, 15);
     text-decoration: underline;
 }
 #phone{
     cursor: pointer;
-    color: green;
+    color:  rgb(233, 248, 15);
     text-decoration: underline;
 }
 footer{
@@ -269,24 +270,40 @@ footer{
 @media only screen and (max-width: 1024px) and (min-width:350px){
     .content-section { text-align: center; }
     .content-section img { width: 100%; height: auto; }
-    .collapse{background-color: azure;}
+    .collapse{background-color:  #30885D;}
     .two{
         width: 1000px;
         height: 233px;
-        padding-top: 20px;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    /* .intro{
+        padding-top: 10px;
+    } */
+    /* .pip-container{
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    } */
+    .one{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        padding-top: 10px;
     }
 
- .one{
-     width: 100%;
-     height: auto;
-     objec-fit: cover;
+/* .one{
     padding-top: 10px;
-}
+    padding-left: 20px;
+    height:233px;
+} */
 .pip-mini{
     right: 0px;
     bottom: 0px;
     max-width: 50%;
     height:80px;
+    /* width: 150px; */
 }
 .card-container{
     display: flex;
@@ -294,6 +311,10 @@ footer{
     align-items: center;
   justify-content: center;
 
+}
+.pip-container{
+    padding-top: 30px;
+    padding-left: 20px;
 }
 .card{
     width: 90%;
@@ -304,6 +325,15 @@ footer{
 }
 .split-image{
     width: 100px;
+}
+.navbar-brand{
+    /* padding-left: 20pt; */
+    padding-left: 20px;
+    text-align: right;
+}
+.row{
+    padding-top: 30px;
+    padding-bottom:10px; 
 }
 }
 
